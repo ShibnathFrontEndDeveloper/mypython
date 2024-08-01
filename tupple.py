@@ -55,3 +55,26 @@ print(green)
 print(red)
 print(blue)
 
+
+# Loop in a tuple
+
+menu11 = ('Rick', 'Rock', 'Fick', 'Tick')
+
+for z in menu11:
+    print(z)
+
+# you can create loop through by index number by using range ana len mrthod----->
+
+menu12 = ('Flick', 'Click', 'Slick', 'Plick')
+
+for i in range(len(menu12)):
+    print(i)
+
+
+# or you can do it----->
+
+menu12 = ('Flick', 'Click', 'Slick', 'Plick')
+
+for i in range(len(menu12)):
+    print(menu12[i])
+
