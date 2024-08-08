@@ -78,3 +78,21 @@ menu12 = ('Flick', 'Click', 'Slick', 'Plick')
 for i in range(len(menu12)):
     print(menu12[i])
 
+
+# While Loop
+print()
+
+menu13 = ('Flick', 'Click', 'Slick', 'Plick')
+i = 0
+while i < len(menu13):
+    print(menu13[i])
+    i = i+1
+
+
+# Count tuple
+
+menu14 = ('weak', 'week', 'well','wind')
+menu15 = menu14.count(str('w'))
+print(menu15)
+
+
